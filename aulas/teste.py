@@ -1,6 +1,2 @@
-nome = 'Guido'
-
-for i in nome:
-
-    print(i)
-
+str [30]
+    print("Olá, Digite seu nome")

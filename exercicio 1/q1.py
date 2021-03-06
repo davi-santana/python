@@ -17,3 +17,6 @@ while sair  == False:
     sairTemp = input('Roll the dices again? (y/n):')
     if sairTemp == 'n':
         sair = True
+    elif sairTemp == 'N':
+        sair = True
+    

@@ -4,15 +4,16 @@ Ao executar o algoritmo, a primeira rodada
 será disparada. O programa deve continuar
 no loop e imprimir o valor dos dois dados até
 o usuário indicar que não quer mais continuar. '''
-''
 from random import randint
 
-print("Rolling the dices...")
-print("The values are....")
-dado1 = randint(1, 6)
-dado2 = randint(1, 6)
+sair = False
+while sair  == False:
+    print("Rolling the dices...")
+    print("The values are....")
+    dado1 = randint(1, 6)
+    dado2 = randint(1, 6)
 
-print(dado1, dado2)
-
-
-
+    print(dado1, dado2)
+    sairTemp = input('Roll the dices again? (y/n):')
+    if sairTemp == 'n':
+        sair = True

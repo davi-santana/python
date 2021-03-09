@@ -5,4 +5,4 @@ Exemplo de saída: '''
 
 exam_st_date = ("('04, 03, 2021')")
 
-print ('O exame iniciará em: ', exam_st_date ':)')
+#print ('O exame iniciará em: ', exam_st_date ':)')

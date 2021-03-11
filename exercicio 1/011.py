@@ -8,6 +8,6 @@ numero2 = 3700
 
 while (numero1 <= numero2):
     if ((numero1 % 7 == 0)
-    else:
+    else: 
     
-print(numero1)
+print(numero1) #não finalizado 

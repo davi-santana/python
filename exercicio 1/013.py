@@ -15,5 +15,5 @@ for lista in range(1, 9):
     else:
         num[1].append(valor)
     print(lista, end=",") 
-print('{num}')
+print('{num}')''' não finalizada'''
        

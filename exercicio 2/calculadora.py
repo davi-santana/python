@@ -4,8 +4,8 @@
 3. Como usuário eu desejo informar os dois valores utilizados na operação.
 4. Como usuário desejo visualizar o resultadoda seguinte maneira: 4 + 3 = 7 ou 3 / 2 = 1.5.
 
-5. Limitações:
-(a) O programa deve ser executado em umloop, que só será encerrado caso o usuário deseje.
+Limitações:
+(a) O programa deve ser executado em um loop, que só será encerrado caso o usuário deseje.
 (b) Após escolher a operação, o usuário deve inserir os valores que serão utilizados na operação.
 (c) Após a inserção dos valores, o resul-tado deve ser exibido, como descrito no item 4.
 (d) Cada operação deve ser executada em uma função.
@@ -21,10 +21,8 @@ def multiplicacao(num1, num2):
     return num1 * num2
 
 def divisao(num1, num2):
-    num1 / num2
+    return num1 / num2
 
-numero1 = float
-numero2 = float
 
 sair = False
 while sair == False:
@@ -38,14 +36,25 @@ while sair == False:
     print('/ | divisão ')
 
     operação = input('Qual é a operação? ')
-    numero1 = int(input('Digite o primeiro valor: '))
-    numero2 = int(input('Digite o segundo valor: '))
+    numero1 = float(input('Digite o primeiro valor: '))
+    numero2 = float(input('Digite o segundo valor: '))
     
     num1 = numero1
     num2 = numero2
 
     if operação == "+":
         print(f'{numero1} + {numero2} =  {adicao(num1, num2)}')
+
+    elif operação == "-":
+        print(f'{numero1} - {numero2} = {subtracao(num1, num2)}')
+
+    elif operação == "*":
+        print(f'{numero1} * {numero2} = {multiplicacao(num1, num2)}')
+
+    elif operação == "/":
+        print(f'{numero1} / {numero2} = {divisao(num1, num2)}')
+    else:
+        print('ERRO')
 
     sairTemp = input('Deseja fazer outra operação? (s/n)\n')
     if sairTemp == 'n':

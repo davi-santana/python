@@ -30,10 +30,10 @@ while sair == False:
 
     print('\n Escolha o tipo de operação que será executada:\n ')
 
-    print('+ | adição')
-    print('- | soma ')
-    print('* | multiplicação')
-    print('/ | divisão ')
+    print('1 | adição')
+    print('2 | subtração ')
+    print('3 | multiplicação')
+    print('4 | divisão ')
 
     operação = input('Qual é a operação? ')
     numero1 = float(input('Digite o primeiro valor: '))
@@ -42,17 +42,18 @@ while sair == False:
     num1 = numero1
     num2 = numero2
 
-    if operação == "+":
+    if operação ==  '1':
         print(f'{numero1} + {numero2} =  {adicao(num1, num2)}')
 
-    elif operação == "-":
+    elif operação == '2':
         print(f'{numero1} - {numero2} = {subtracao(num1, num2)}')
 
-    elif operação == "*":
+    elif operação == '3':
         print(f'{numero1} * {numero2} = {multiplicacao(num1, num2)}')
 
-    elif operação == "/":
+    elif operação == '4':
         print(f'{numero1} / {numero2} = {divisao(num1, num2)}')
+    
     else:
         print('ERRO')
 

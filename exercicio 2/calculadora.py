@@ -23,6 +23,11 @@ def multiplicacao(num1, num2):
 def divisao(num1, num2):
     return num1 / num2
 
+def exponenciacao(num1, num2):
+    return num1 ** num2
+
+
+
 
 sair = False
 while sair == False:
@@ -34,10 +39,11 @@ while sair == False:
     print('2 | subtração ')
     print('3 | multiplicação')
     print('4 | divisão ')
+    print('5 | exponenciação ')
 
     operação = input('Qual é a operação? ')
-    numero1 = float(input('Digite o primeiro valor: '))
-    numero2 = float(input('Digite o segundo valor: '))
+    numero1, numero2 = [float(x) for x in input("Entre com 2 valores, separados com espaço: ").split()]
+   # numero2 = float(input('Digite o segundo valor: '))
     
     num1 = numero1
     num2 = numero2
@@ -53,9 +59,14 @@ while sair == False:
 
     elif operação == '4':
         print(f'{numero1} / {numero2} = {divisao(num1, num2)}')
-    
+
+    elif operação == '5':
+        print(f'{numero1} elevado {numero2} = {exponenciacao(num1, num2)}')
     else:
         print('ERRO')
+    
+    
+
 
     sairTemp = input('Deseja fazer outra operação? (s/n)\n')
     if sairTemp == 'n':

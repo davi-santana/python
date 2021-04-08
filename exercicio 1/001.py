@@ -14,7 +14,7 @@ while sair  == False:
     dado2 = randint(1, 6)
 
     print(dado1, dado2)
-    sairTemp = input('Roll the dices again? (y/n):')
+    sairTemp = input('Rolll the dices again? (y/n):')
     if sairTemp == 'n':
         sair = True
     elif sairTemp == 'N':

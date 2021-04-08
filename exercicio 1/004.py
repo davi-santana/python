@@ -6,7 +6,7 @@ o For e usando o While. '''
 for i in (range(2, 202,2)):
     print(i)
 
-''' ********* While ********* '''
+''' ********* While  ********* '''
 contador = 2
 while (contador < 202):
     print(contador)

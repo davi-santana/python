@@ -1,6 +1,6 @@
 ''' Escreva um programa em Python que im-
 prima todos os números que ao divisíveis
-por 7 e múltiplos de 5 entre 2500 e 3700
+por 7 e múltiplos  de 5 entre 2500 e 3700
 inclusive. ''' 
 
 numero1 = 2500

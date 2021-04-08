@@ -9,7 +9,7 @@ Limitações:
 (b) Após escolher a operação, o usuário deve inserir os valores que serão utilizados na operação.
 (c) Após a inserção dos valores, o resul-tado deve ser exibido, como descrito no item 4.
 (d) Cada operação deve ser executada em uma função.
-(e) Deve existir uma função responsávelpela leitura dos dados. '''
+(e) Deve existir uma função responsávelpela leitura dos dados.  '''
 
 def adicao(num1, num2):
    return num1 + num2

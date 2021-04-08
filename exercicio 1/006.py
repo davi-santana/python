@@ -1,6 +1,6 @@
 ''' Faça um algoritmo que leia a duração de um
 evento em uma fábrica, expresso em segun-
-dos, e mostre-o em horas, minutos e segun-
+dos, e  mostre-o em horas, minutos e segun-
 dos. '''
 
 segundos = int(input("Digite a duração do evento em segundos: "))

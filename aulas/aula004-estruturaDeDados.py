@@ -65,3 +65,14 @@ print(max(fruits))
 #pega o valor minimo
 print(min(fruits))
 
+
+print('*************** dicionario ************')
+
+estadosCapitais =  {'mato grosso' : 'cuiabá',
+                    'Minas Gerais' : 'Belo Horizonte',
+                    'Maranhão' : 'sao luiz',
+                     'mato grosso do sul ' : 'Campo Grande' 
+                     }
+print(estadosCapitais)
+
+dict_01 = dict(mg='belo horizonte', rj='rio de janeiro', sp= 'sao paulo')

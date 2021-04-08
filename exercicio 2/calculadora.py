@@ -73,7 +73,9 @@ while sair == False:
         sair = True
     elif sairTemp == 'N':
         sair = True
-
+    
+    #criar um dicionario aninhado, onde a chave e a região, e os valoresa, os estados pertencentes a regiao.
+    
 
 
 

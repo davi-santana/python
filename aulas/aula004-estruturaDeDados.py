@@ -15,7 +15,7 @@ print('type pf my_tuple', type(my_tupla))
 print('\n*************** imprimindo itens na lista ************')
 
 print('my_tuple[2:6}', my_tupla[2 :6])
-print('my_tuple[2:6}', my_tupla[::-1]) #imprime reverso
+print('minha tupla[2:6}', my_tupla[::-1]) #imprime reverso
 
 tp3 = (1, 'Davi', -856, 855)
 print(f'tp3 contente{(tp3)}')

@@ -1,6 +1,6 @@
 ''' Crie um programa em Python que receba
 um inteiro (n) e calcule o valor de n + nn
-+ nnn
++ nnn 
 O valor dado de n é 5
 O resultado esperado: 615 '''
 

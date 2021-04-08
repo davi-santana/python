@@ -1,5 +1,5 @@
 '''Escreva um algoritmo em Python que im-
-prima o seguinte padrão.'''
+prima o seguinte padrão. '''
 
 simbolo = ['*', '* *', '* * *', '* * * *', '* * * * *', '* * * *', '* * *', '* *', '*']
 

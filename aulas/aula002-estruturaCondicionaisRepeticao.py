@@ -20,6 +20,7 @@ elif num >= 10:
     print('numero maior do que 10')
 else:
     print('numero negativo') '''
+    "ola "
 
 ''' ******** estruturas de repetição ****** '''
 

@@ -22,7 +22,7 @@ print(f'{a}  {2} = {exp(a,b)}')
     for i, name in enumerate(args):
         print('{i} - welcome{name}')
 
-print_names('davi', 'c', 'f', 'gh', 'jgjg', jfjfjf' )
+print_names('davi', 'd', 'f', 'gh', 'jgjg', jfjfjf' )
 '''
 
 

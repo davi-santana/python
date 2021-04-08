@@ -4,7 +4,7 @@ de valores inteiros.
 Exemplo de série:
 (1, 2, 3, 4, 5, 6, 7, 8, 9)
 Ímpares: 5
-Pares: 4 '''
+Pares: 4   '''
 
 num = [[], []]
 valor = 0

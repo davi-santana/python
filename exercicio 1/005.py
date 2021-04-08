@@ -1,7 +1,7 @@
 ''' Construa um algoritmo que, tendo como da-
 dos de entrada dois pontos quaisquer no
 plano, P(x1,y1) e P(x2,y2), escreva a dis-
-tância entre eles. A fórmula que efetua tal
+tância entre  eles. A fórmula que efetua tal
 cálculo é:
 p
 d = (x 2 − x 1 ) 2 + (y 2 − y 1 ) 2

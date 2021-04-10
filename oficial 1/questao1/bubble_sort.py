@@ -12,7 +12,7 @@ def bubble_sort(lista):
 
 
 # ******  Tire as  3 aspas simples (''') se quiser imprimir a sequência   ****** 
-'''lista_ordenada = bubble_sort(lista)
+''' lista_ordenada = bubble_sort(lista)
 print(f'Bubble sort:   {lista_ordenada}')
 '''
 

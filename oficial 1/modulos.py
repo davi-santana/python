@@ -1,5 +1,4 @@
-import random
+import random 
 
-lista = random.sample(range(50_000), 10)
+lista = random.sample(range(50_000), 1000)
 
-print(lista)

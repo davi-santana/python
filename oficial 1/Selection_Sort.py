@@ -1,18 +1,21 @@
 from modulos import lista
+import time
 
-def selection_sort(lista):
+inicio = time.time()
+def selectionSort(lista='lista'):
     for i in range(len(lista)):
-        
-    
-        min_idx = i
+        minimo = i
         for j in range(i+1, len(lista)):
-            if lista[min_idx] > lista[j]:
-                min_idx = j
-                
-            
-        lista[i], lista[min_idx] = lista[min_idx], lista[i]
-    
+            if lista[minimo] > lista[j]:
+                minimo = j
+        lista[i], lista[minimo] = lista[minimo], lista[i]
 
-    print ("Sorted array")
-    for i in range(len(lista)):
-        print(lista[i]), 
+selectionSort(lista)
+for i in range(len(lista)):
+    print(lista[i])
+
+fim = time.time()
+diferenca = fim - inicio
+print(diferenca)
+
+

@@ -1,0 +1,4 @@
+A busca binaria e melhor do que a sequencial porque ela  funciona dividindo pela metade a porção da lista
+que contem o item até reduzir as localizações possiveis a apenas uma, ja a na busca linear o valor e comparado
+até que se encontro o valor desejado, dependendo assim da sorte pois se o valor estiver no final da lista ele
+irá percorrer toda a lista para retornar um valor.

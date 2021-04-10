@@ -15,5 +15,5 @@ def insertion_sort(lista):
         lista[j + 1] = insert_value
     return lista
 
-lista_ordenada2 = insertion_sort(lista)
-print(f'Insertion Short:   {lista_ordenada2}')
+'''lista_ordenada2 = insertion_sort(lista)
+print(f'Insertion Short:   {lista_ordenada2}')'''

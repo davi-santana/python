@@ -1,4 +1,4 @@
 import random 
 
-lista = random.sample(range(50_000), 1000)
+lista = random.sample(range(50_000), 50000)
 

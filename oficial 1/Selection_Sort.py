@@ -11,8 +11,8 @@ def selectionSort(lista='lista'):
         lista[i], lista[minimo] = lista[minimo], lista[i]
 
 selectionSort(lista)
-for i in range(len(lista)):
-    print(lista[i])
+'''for i in range(len(lista)):
+    print(lista[i])'''
 
 fim = time.time()
 diferenca = fim - inicio

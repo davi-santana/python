@@ -1,6 +1,4 @@
 from modulos import lista
-import  time
-
 
 def bubble_sort(lista):
     n = len(lista)
@@ -13,11 +11,9 @@ def bubble_sort(lista):
 
 #print(f'Unordered: {lista}')
 
-
-lista_ordenada = bubble_sort(lista)
+# ******  Tire as  3 aspas simples (''') se quiser imprimir a sequência   ****** 
+'''lista_ordenada = bubble_sort(lista)
 print(f'Bubble sort:   {lista_ordenada}')
+'''
 
-tempoInicial = time.time()
-bubble_sort(lista)
-print("--- %s segundos ---" % (time.time() - tempoInicial))
 

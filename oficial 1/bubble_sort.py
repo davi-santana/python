@@ -9,7 +9,7 @@ def bubble_sort(lista):
     return lista
 
 
-#print(f'Unordered: {lista}')
+
 
 # ******  Tire as  3 aspas simples (''') se quiser imprimir a sequência   ****** 
 '''lista_ordenada = bubble_sort(lista)
